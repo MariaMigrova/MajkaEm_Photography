@@ -166,6 +166,7 @@ footer {
         flex: 1 0 auto;
         position: relative;
         z-index: 1;
+        width: 100%;
     }
    
     /* Footer of the page */
