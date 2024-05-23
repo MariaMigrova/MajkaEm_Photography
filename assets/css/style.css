@@ -17,6 +17,7 @@
 /* Body of the page */
 body {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-family: "alegreya sans", sans-serif;
@@ -47,8 +48,7 @@ nav {
 
 nav a {
     color: black;
-    font-size: 45px;
-
+    font-size: 50px;
 
 }
 
@@ -67,6 +67,8 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
+    right: 0;
+    margin: 0 auto;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
@@ -101,8 +103,7 @@ nav {
 
 
 .menu li {
-    padding: 15px 10px;
-    font-size: 16px;
+    padding: 0px 10px;
     margin-right: 20px;
 }
 
@@ -112,12 +113,41 @@ main {
     background-color: red;
     flex: 1 0 auto;
     margin-top: 47px;
+    width: 100%;
 }
 
 
 /* Footer of the page */
 footer {
-    background-color: purple;
+    background-color: #32a89d;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+
+footer ul li i {
+    color: white;
+    font-size: 30px;
+    padding: 5%;
+}
+
+footer ul li i:hover {
+    color: black;
+    font-weight: 900;
+
+
 }
 
 
@@ -131,8 +161,7 @@ footer {
         display: none;
         position: absolute;
         width: 100%;
-        left: 0;
-        top: 275px;
+        top: 375px;
         padding: 15px 20px;
         background: white;
         box-shadow: 0 2px 2px #3a3a3a;
@@ -152,7 +181,9 @@ footer {
 
 
     .menu li {
-        margin: 0;
+        margin: 20;
+        padding: 1px 1px;
+        font-size: 5px;
     }
 
 
@@ -171,7 +202,7 @@ footer {
    
     /* Footer of the page */
     footer {
-        background-color: purple;
+
         position: relative;
         z-index: 1;
         width: 100%;
