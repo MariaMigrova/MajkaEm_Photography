@@ -293,7 +293,6 @@ footer ul li i:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 40px 20px 0 20px;
 }
 
 .heading {
@@ -363,7 +362,6 @@ footer ul li i:hover {
 
 
     .menu li {
-        margin: 20;
         padding: 1px 1px;
         font-size: 5px;
     }
