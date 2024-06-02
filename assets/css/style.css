@@ -167,6 +167,16 @@ h2 {
     text-align: left;
 }
 
+.star { 
+    max-width: 100px;
+    display: block;
+}
+
+#testimonials ~ p:hover {
+    transform: scale(1.1);
+}
+
+
 /* Footer of the page */
 footer {
     background-color:  #344e41;
@@ -317,6 +327,7 @@ footer ul li i:hover {
     border-radius: 5px;
 
 }
+
 
 
 /*Media query: mobile devices (up to 600px) */
