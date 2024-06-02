@@ -20,6 +20,15 @@ Maria Migrova
 
 # Table of contents
 
+1. [User Experience](#ux)
+2. [Features](#features)
+3. [Testing](#testing)
+4. [Unfixed Bugs](#unfixed-bugs)
+5. [Deployment](#deployment)
+6. [Code](#code)
+7. [Credits](#credits)
+
+
 
 # User Experience (UX)
 
